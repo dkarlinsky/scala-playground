@@ -4,7 +4,7 @@
  */
 class UseFoo
 {
-  import helloWorld.FooInterpolation
+  import HelloWorld.FooInterpolation
 
   def main(args: Array[String]) ={
     println (foo" ")

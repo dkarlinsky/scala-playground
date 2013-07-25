@@ -1,5 +1,9 @@
 /**
  * Created by : Dmitry Karlinsky
- * Date: 7/23/13 5:41 PM
+ * Date: 7/24/13 6:39 PM
  */
+def foo {
 
+}
+
+foo
