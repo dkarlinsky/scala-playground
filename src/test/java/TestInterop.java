@@ -1,6 +1,7 @@
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 /**
  * Created by : Dmitry Karlinsky
@@ -16,12 +17,14 @@ public class TestInterop
 
         assertEquals("dmitry", dmitry.getName());
         assertEquals(36, dmitry.getAge());
+        assertTrue(dmitry.isCool());
 
         dmitry.setAge(24);
         dmitry.setName("Dmitry");
 
         assertEquals("Dmitry", dmitry.getName());
         assertEquals(24, dmitry.getAge());
+        assertTrue(dmitry.isCool());
 
 
     }
