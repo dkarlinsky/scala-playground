@@ -20,6 +20,17 @@ class ZooTest extends FunSuite
       add(Turtle("Tank"))
   }
 
+  test("test that zoo toString returns comma delimited list of animal descriptions")  {
+
+    new Fixture {
+
+      assert(zoo.toString ===
+        "Lion Mitzi, Eagle Shooki, Duck Donald, Lion Simba, Duck Scrooge, Fish Goldie, Turtle Tank"
+      )
+
+    }
+  }
+
   test("test that moveAnimals1 uses appropriate transportation methods for each"){
 
     new Fixture {
