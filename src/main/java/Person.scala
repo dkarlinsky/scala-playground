@@ -26,6 +26,14 @@ class PersonWithBeanProps(@BeanProperty var age: Int,
     def this(age: Int, name: String)= this(age, name, name equalsIgnoreCase  "dmitry")
 }
 
+class PersonNoVarsVals(name: String, age: Int)
+{
+    def foo = s"$name is $age"
+    def getName = name
+    def getAge = age
+
+}
+
 
 class PersonNoCtor{
    var name: String =""
