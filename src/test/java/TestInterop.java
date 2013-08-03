@@ -1,3 +1,4 @@
+import exercises.ex1.Duck$;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -26,7 +27,7 @@ public class TestInterop
         assertEquals(24, dmitry.getAge());
         assertTrue(dmitry.isCool());
 
-
+        //Duck$.MODULE$.
     }
 
     @Test
