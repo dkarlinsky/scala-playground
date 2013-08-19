@@ -23,72 +23,14 @@ def toInt(t: Try[Int]) = t.recover {
     //case e: ArithmeticException => 42
 }.get
 
-
 val divByZeroToInt = toInt(parseInt("10") / parseInt("0"))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 val badNumberToInt = toInt(parseInt("foo"))
-
 
 val parseFooGetOrElse = parseInt("foo").getOrElse {
     println("handling error")
     "Error"
 }
-
 val parse2GetOrElse = parseInt("2").getOrElse {
     println("handling error")
     "Error"
