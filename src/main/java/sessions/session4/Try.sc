@@ -1,5 +1,6 @@
 import scala.util.Try
-import sessions.session3.TryOps.Divide
+import sessions.session4.TryOps
+import TryOps.Divide
 
 /**
  * Created by : Dmitry Karlinsky
